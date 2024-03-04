@@ -1,0 +1,150 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/Hero.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.4);
+    width:22%;
+    border-radius: 15px;
+}
+.navbar-nav{
+    font-weight: bold; /* Increasing the font weight */
+    font-size: larger;
+}
+.nav-link1{
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.nav-link2{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.nav-link3{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.nav-link4{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.nav-link5{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.nav-link6{
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: black;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold; /* Increasing the font weight */
+    font-size: larger;
+}
+
+.navbar{
+    background-color:teal;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold; /* Increasing the font weight */
+    font-size: larger;
+    margin-left: 60px;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    border-radius: 15px;
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: teal;
+}
+.servicesText:hover {
+    border: 1px solid teal;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+    padding: 10px;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: teal;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: teal;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+.col-lg-8{
+    text-align: justify;
+      text-align-last: justify;
+      width: 60%; /* Adjust the width as needed */
+      margin: 0 auto;
+      padding: 10px;
+      background-color:teal;
+      color: white;
+      border-radius: 15px;
+}
+.card-text{
+    text-align: justify;
+}
